@@ -1,0 +1,18 @@
+<section id="posts">
+  {% for post in site.posts limit:4 %}
+  <header class="major">
+    <h2><a href="{{post.url}}">{{ post.title }}</a></h2>
+    <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+  <section>
+    <p>
+      {{ post.excerpt }}
+    </p>
+  </section>
+  {% endfor %}
+</section>
+
+<ul class="actions">
+  <li><a href="/posts" class="button small">Archives</a></li>
+  <li><a href="https://medium.com/@rrbaker" class="button special small icon fa-medium">More posts on Medium</a></li>
+</ul>

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div id="main">
+	<nav>
+		<ul class="inline">
+			<li><a href="/">Home</a> - </li>
+			<li><a href="/posts">All posts</a></li>
+		</ul>
+	</nav>
+
+	<article>
+		<header class="major">
+			<h1 class="post-title">{{ page.title }}</h1>
+			<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+		</header>
+
+		<section>
+			{{ content }}
+		</section>
+
+		<footer>
+			<hr>
+			<p>
+				<i>No comments, don't want them here. But I would love to hear from you about this directly. Please do reach out to me on Twitter, Medium, or by email. Let's get a coffee sometime.</i>
+			</p>
+		</footer>
+	</article>
+</div>
