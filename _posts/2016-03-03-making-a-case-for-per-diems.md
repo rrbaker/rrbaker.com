@@ -2,6 +2,7 @@
 layout: post
 title: Making a case for per diems
 excerpt: A rebuttal to a recent report for removing per diems. Or, in short, the developing world is not our free sandbox.
+date: 2016-03-04
 categories: response
 ---
 
