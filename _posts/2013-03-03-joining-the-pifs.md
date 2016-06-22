@@ -4,6 +4,7 @@ title: Joining the Presidential Innovation Fellows
 excerpt: Proud to announce that I'll be joining the second round of PIFs, the White House's startup for better technology is government.
 date: 2013-06-20
 categories: pif usg
+published: true
 ---
 
 Very exciting news this month as I've been accepted into the second round of the[Presidential Innovation Fellows]().

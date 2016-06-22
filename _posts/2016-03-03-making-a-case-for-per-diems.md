@@ -4,6 +4,7 @@ title: Making a case for per diems
 excerpt: A rebuttal to a recent report for removing per diems. Or, in short, the developing world is not our free sandbox.
 date: 2016-03-04
 categories: response
+published: false
 ---
 
 The flaw in this report is the utter lack of acknowledgment toward the role ICT4D practitioners play in this situation, as if government employees and the “local capacity” of regional non-profits, villages, and communities exist only as control groups for pre-scaled, someday national programs.
