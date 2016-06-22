@@ -4,7 +4,7 @@ title: Launching BRCK
 excerpt: After months of incubating our next venture Ushahidi is launching BRCK, our backup generator for the Internet.
 date: 2013-05-03
 categories: ushahidi work iot innovation
-published: true
+published: false
 ---
 
 ## Or, why I hate versioning generalizations

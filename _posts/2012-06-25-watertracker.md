@@ -1,13 +1,11 @@
 ---
 layout: post
-title: WaterTracker: Structured data, integrated response
+title: WaterTracker - Structured data, integrated response
 excerpt: How we're using mobile phones, IVRs, and an locally run initiative to save money fixing wells in Afghanistan.
 date: 2012-06-25
 tags: work mobile ushahidi usaid
 published: true
 ---
-
-### Structured Data, Integrated Response
 
 _*The following is reposted from [the Ushahidi blog](https://www.ushahidi.com/blog/2012/06/25/watertracker-structured-data-integrated-response), with minor edits.*_
 
