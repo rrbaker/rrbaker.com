@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Maker.json
-date: 2016-03-03
+title: maker.json
+date: 2016-07-23
 order: 4
-excerpt: A schema and open API for tracking makerspaces around the world.
+excerpt: A schema for tracking makerspaces around the world.
 type: project
-published: false
-external_url: http://intermezzo.io
-github_url: 
+published: true
+external_url: https://rrbaker.github.io/maker.json
+github_url: https://github.com/rrbaker/maker.json
 ---
