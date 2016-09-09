@@ -30,9 +30,5 @@
     </article>
 
     {% endfor %}
-
-    {% for project in site.projects reversed sort: 'order' | published: 'true' %}
-    {{ project.title }}
-{% endfor %}
   </div>
 </section>
