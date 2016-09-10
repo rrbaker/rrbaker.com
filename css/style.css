@@ -96,6 +96,7 @@ hr {
   hr.major {
     margin: 3em 0; }
 
+
 blockquote {
   border-left: solid 6px #efefef;
   font-style: italic;
@@ -164,7 +165,22 @@ header h6 + p {
 header.major h2 {
   font-size: 2em;
   font-weight: 900;
-  margin: 0 0 .4em 0; }
+  line-height: 1.25em;
+  margin: 0; }
+header.major h3 {
+  font-size: 1.3em;
+  font-weight: normal;
+  margin: 0;
+  color: #999;
+}
+
+header.major {
+  margin-bottom: 2em;
+}
+header.major small {
+  font-size: .8em;
+  margin: 0;
+}
 
 /* Form */
 form {
