@@ -6,5 +6,6 @@ order: 5
 excerpt: A Slackbot for NLP search of USAID's Development Clearinghouse Experience.
 type: project
 published: false
-external_url: http://intermezzo.io
+details_url: 
+external_url:
 ---

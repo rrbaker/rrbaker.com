@@ -7,5 +7,6 @@ excerpt: A quick project to promote interaction and partnerships during team ses
 type: project
 published: false
 external_url: http://intermezzo.io
+details_url: 
 github_url:
 ---

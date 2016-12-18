@@ -7,6 +7,9 @@ excerpt: A platform for tracking USAID funded water stations around Afghanistan 
 type: project
 thumb: watertracker.png
 published: true
-external_url:
+details_url: https://medium.com/@rrbaker/watertracker-811b8365fd3c
+external_url: https://www.usaid.gov/global-waters/june-2012/starts-with-sustainability
 github_url:
 ---
+
+# Water Tracker

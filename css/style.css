@@ -1039,3 +1039,7 @@ article h1 {
   height: 400px;
   border: 1px solid #333333;
   z-index: 100; }
+
+#projects article p {
+  margin-bottom: .6em;
+}

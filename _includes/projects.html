@@ -2,14 +2,14 @@
   <header>
     <h1>Projects</h1>
     <p>
-      I build things. Here's some highlights on independent projects or where I was technical lead.
+      I like to build things. Here's some highlights on projects or where I was technical lead for the team or did independently.
     </p>
   </header>
 
   <div class="row">
     {% for project in site.projects reversed sort: 'order' | published: 'true' %}
 
-    <article class="{% cycle '6u', '6u$' %} 12u(small)">
+    <article class="project {% cycle '6u', '6u$' %} 12u(small)">
       <header>
         <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
       </header>
@@ -17,11 +17,16 @@
         {% if project.thumb %}
         <img src="/images/{{ project.thumb }}" alt="thumbnail" />
         {% endif %}
-        {{ project.excerpt }}
+        <p>{{ project.excerpt }}</p>
       </section>
       <footer>
         <ul class="actions">
-          <li><a href="{{ project.url }}" class="button small">Details</a></li>
+          {% if project.details_url %}
+          <li><a href="{{ project.details_url }}" class="button small">Details</a></li>
+          {% endif %}
+          {% if project.external_url %}
+          <li><a href="{{ project.external_url }}" class="button small">External Site</a></li>
+          {% endif %}
           {% if project.github_url %}
           <li><a href="{{ project.github_url }}" class="button special small icon fa-github">Github repo</a></li>
           {% endif %}
