@@ -1,0 +1,80 @@
+/* ---------------------------------------------------------------------------
+   Rob Baker -- a text page. Roughly 60 lines of CSS, no framework, no build.
+   --------------------------------------------------------------------------- */
+
+:root {
+  --ink:        #1a1a1a;
+  --ink-muted:  #5c5c5c;
+  --paper:      #fdfcfa;
+  --rule:       #e2ddd4;
+  --accent:     #6b4f2a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink:       #e8e4dc;
+    --ink-muted: #a09a90;
+    --paper:     #14130f;
+    --rule:      #2e2b25;
+    --accent:    #c9a86a;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 4rem 1.5rem 6rem;
+  background: var(--paper);
+  color: var(--ink);
+  font: 400 1.0625rem/1.65 Iowan Old Style, Palatino, Palatino Linotype, Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+main { max-width: 34rem; margin: 0 auto; }
+
+h1 {
+  margin: 0 0 0.25rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.tagline {
+  margin: 0 0 2.5rem;
+  color: var(--ink-muted);
+  font-style: italic;
+}
+
+h2 {
+  margin: 2.75rem 0 0.75rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+p { margin: 0 0 1.15rem; }
+
+ul { margin: 0 0 1.15rem; padding: 0; list-style: none; }
+li { margin: 0 0 1rem; }
+li .note { display: block; color: var(--ink-muted); font-size: 0.9375rem; }
+
+a {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+a:hover { color: var(--ink); }
+
+hr {
+  margin: 3rem 0 1.5rem;
+  border: 0;
+  border-top: 1px solid var(--rule);
+}
+
+footer { color: var(--ink-muted); font-size: 0.9375rem; }
+footer a { color: var(--ink-muted); }
+footer .sep { padding: 0 0.5rem; opacity: 0.5; }

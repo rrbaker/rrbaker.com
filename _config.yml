@@ -1,0 +1,27 @@
+# --- Site identity -----------------------------------------------------------
+title: Rob Baker
+tagline: Writer and literary editor
+description: >-
+  Rob Baker is a writer and literary editor based in Grafton, Massachusetts.
+author: Rob Baker
+
+# Full production URL, no trailing slash. Change this if the domain changes.
+url: "https://robbaker.com"
+baseurl: ""
+
+# --- Build -------------------------------------------------------------------
+# No theme: every layout and stylesheet in this repo is ours.
+theme: null
+plugins: []
+
+permalink: pretty
+markdown: kramdown
+kramdown:
+  smart_quotes: ["lsquo", "rsquo", "ldquo", "rdquo"]
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .github
