@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Applied before the stylesheet loads, so there's no white flash in dark mode. -->
+  <meta name="color-scheme" content="light dark">
 
   <title>{% if page.title and page.title != site.title %}{{ page.title }} &middot; {{ site.title }}{% else %}{{ site.title }} &middot; {{ site.tagline }}{% endif %}</title>
   <meta name="description" content="{{ page.description | default: site.description | strip_newlines }}">
@@ -19,5 +21,18 @@
   <main>
     {{ content }}
   </main>
+
+  <hr>
+
+  <!-- Outside <main> so it maps to the contentinfo landmark. -->
+  <footer>
+    {%- for link in site.links %}
+      {%- unless forloop.first %}
+      <span class="sep" aria-hidden="true">&middot;</span>
+      {%- endunless %}
+      <a href="{{ link.url }}"{% unless link.url contains 'mailto:' %} rel="me"{% endunless %}>{{ link.name }}</a>
+    {%- endfor %}
+  </footer>
+
 </body>
 </html>

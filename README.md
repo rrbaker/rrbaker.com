@@ -4,7 +4,7 @@ A one-page personal site. Jekyll, no theme, no JavaScript.
 
 ## Local development
 
-Requires Ruby 3.x and Bundler.
+Requires Ruby 3.3.x (see `.ruby-version`) and Bundler.
 
 ```sh
 bundle install
@@ -28,7 +28,7 @@ Then open <http://localhost:4000>.
 
 1. Push this repo to GitHub.
 2. Settings → Pages → **Source: GitHub Actions**.
-3. Settings → Pages → Custom domain: enter the domain. That writes `CNAME`.
+3. Settings → Pages → Custom domain: `rrbaker.com` (the `CNAME` file is already committed).
 4. At the DNS host, point the apex at GitHub's IPs (185.199.108–111.153) and
    `www` at `<username>.github.io` via CNAME.
 5. Once DNS resolves, tick **Enforce HTTPS**.

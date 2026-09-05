@@ -1,8 +1,11 @@
 /* ---------------------------------------------------------------------------
-   Rob Baker -- a text page. Roughly 60 lines of CSS, no framework, no build.
+   Rob Baker -- a text page. No framework, no build step, no JavaScript.
    --------------------------------------------------------------------------- */
 
 :root {
+  /* Tells the UA to render scrollbars, form controls and the canvas to match. */
+  color-scheme: light dark;
+
   --ink:        #1a1a1a;
   --ink-muted:  #5c5c5c;
   --paper:      #fdfcfa;
@@ -69,12 +72,31 @@ a {
 }
 a:hover { color: var(--ink); }
 
+/* Explicit ring: consistent across browsers and comfortably past 2.4.13. */
+a:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
 hr {
-  margin: 3rem 0 1.5rem;
+  max-width: 34rem;
+  margin: 3rem auto 1.5rem;
   border: 0;
   border-top: 1px solid var(--rule);
 }
 
-footer { color: var(--ink-muted); font-size: 0.9375rem; }
+/* Wrapping row rather than a rigid line, so the links reflow at 200% zoom
+   and at 320px instead of pushing the page sideways. */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.6rem;
+  max-width: 34rem;
+  margin: 0 auto;
+  color: var(--ink-muted);
+  font-size: 0.9375rem;
+}
 footer a { color: var(--ink-muted); }
-footer .sep { padding: 0 0.5rem; opacity: 0.5; }
+footer .sep { opacity: 0.5; }

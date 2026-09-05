@@ -3,40 +3,34 @@ layout: default
 title: Rob Baker
 ---
 
-# Rob Baker
+# Hi, I'm Rob
 
-<p class="tagline">Writer and literary editor &middot; Grafton, Massachusetts</p>
+<p class="tagline">Writer and literary editor &middot; Worcester County, Massachusetts</p>
 
-I write poems and I edit other people's, which turn out to be the same
-attention pointed in two directions. I studied Writing &amp; Poetics at Naropa
-University, and most of my work since has been in the small-press corner of
-things — reading submissions, sequencing issues, and keeping the unglamorous
-machinery of literary magazines running.
-
-Most of that work happens in and around Worcester County, Massachusetts.
+I manage literary journals and build technical things for writers.
 
 ## Projects
 
-<ul>
+<ul role="list">
   <li>
     <a href="https://afterjournal.org"><em>&mdash;after</em></a>
-    <span class="note">A literary journal I'm launching. <!-- TODO: one line on what it publishes and what you're looking for. --></span>
+    <span class="note">Founding Editor. A monthly art journal where every submission (fiction, poetry, art, photography, music) is written in reaction to an inspirational work.</span>
+  </li>
+  <li>
+    <a href="https://threedecker.org"><em>Three Decker</em></a>
+    <span class="note">Founding Editor. A bi-annual literary magazine for poets and writers living, working, or attending school in Worcester County, MA.</span>
   </li>
   <li>
     <a href="https://www.worcesterreview.org"><em>The Worcester Review</em></a>
-    <span class="note">Editorial staff. The annual journal of the Worcester County Poetry Association, publishing since 1972.</span>
-  </li>
-  <li>
-    <em>Three Decker</em>
-    <span class="note">Editorial staff. <!-- TODO: URL + one line of description. --></span>
+    <span class="note">Assistant Managing Editor. The annual journal of the Worcester County Poetry Association, publishing since 1972.</span>
   </li>
   <li>
     <a href="https://www.worcestercountypoetry.org">Worcester County Poetry Association</a>
-    <span class="note">A nonprofit supporting poets and readers in central Massachusetts.</span>
+    <span class="note">Board member. A nonprofit supporting poets and readers in central Massachusetts.</span>
   </li>
   <li>
-    Perihelion
-    <span class="note">An open-source publishing platform for small literary magazines — submissions, issues, and subscribers in one place. In development.</span>
+    KeepWrit
+    <span class="note">An online platform to support a daily writing practice, featuring daily word count goals, statuses, tagging, and views to track your best work.</span>
   </li>
 </ul>
 
@@ -48,14 +42,4 @@ Most of that work happens in and around Worcester County, Massachusetts.
   </ul>
 -->
 
-Recent poems have appeared in <!-- TODO -->. A fuller list is on the way.
-
-<hr>
-
-<footer>
-  <a href="mailto:rrbaker@gmail.com">Email</a>
-  <span class="sep">&middot;</span>
-  <a href="https://www.linkedin.com/in/rrbaker" rel="me">LinkedIn</a>
-  <span class="sep">&middot;</span>
-  <a href="https://www.instagram.com/rrbaker" rel="me">Instagram</a>
-</footer>
+A fuller list is on the way.

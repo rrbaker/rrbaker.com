@@ -2,12 +2,21 @@
 title: Rob Baker
 tagline: Writer and literary editor
 description: >-
-  Rob Baker is a writer and literary editor based in Grafton, Massachusetts.
+  Rob Baker is a writer and literary editor in Worcester County, Massachusetts.
 author: Rob Baker
 
 # Full production URL, no trailing slash. Change this if the domain changes.
-url: "https://robbaker.com"
+url: "https://rrbaker.com"
 baseurl: ""
+
+# Footer links, rendered by _layouts/default.html.
+links:
+  - name: Email
+    url: "mailto:rrbaker@gmail.com"
+  - name: LinkedIn
+    url: "https://www.linkedin.com/in/rrbaker"
+  - name: Instagram
+    url: "https://www.instagram.com/rrbaker"
 
 # --- Build -------------------------------------------------------------------
 # No theme: every layout and stylesheet in this repo is ours.
