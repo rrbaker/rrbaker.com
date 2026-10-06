@@ -32,6 +32,10 @@ I manage literary journals and build technical things for writers.
     KeepWrit
     <span class="note">An online platform to support a daily writing practice, featuring daily word count goals, statuses, tagging, and views to track your best work.</span>
   </li>
+  <li>
+    <a href="https://rrbaker.github.io/awesome-ergodic-lit/">Awesome Ergodic Literature</a>
+    <span class="note">A curated list of ergodic literature (texts that take nontrivial effort to traverse), organized by reading mechanics: footnote mazes, multiple paths, permutational and reader-assembled works, hypertext, and more.</span>
+  </li>
 </ul>
 
 ## Writing
