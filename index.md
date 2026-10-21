@@ -5,7 +5,7 @@ title: Rob Baker
 
 # Hi, I'm Rob
 
-<p class="tagline">Writer and literary editor &middot; Worcester County, Massachusetts</p>
+<p class="tagline">Aspiring writer and literary editor &middot; Worcester County, Massachusetts</p>
 
 I manage literary journals and build technical things for writers.
 
@@ -21,7 +21,7 @@ I manage literary journals and build technical things for writers.
     <span class="note">Founding Editor. A bi-annual literary magazine for poets and writers living, working, or attending school in Worcester County, MA.</span>
   </li>
   <li>
-    <a href="https://www.worcesterreview.org"><em>The Worcester Review</em></a>
+    <a href="https://theworcesterreview.org"><em>The Worcester Review</em></a>
     <span class="note">Assistant Managing Editor. The annual journal of the Worcester County Poetry Association, publishing since 1972.</span>
   </li>
   <li>
