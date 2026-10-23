@@ -29,7 +29,7 @@ I manage literary journals and build technical things for writers.
     <span class="note">Board member. A nonprofit supporting poets and readers in central Massachusetts.</span>
   </li>
   <li>
-    KeepWrit
+    KeepWrit (coming soon)
     <span class="note">An online platform to support a daily writing practice, featuring daily word count goals, statuses, tagging, and views to track your best work.</span>
   </li>
   <li>

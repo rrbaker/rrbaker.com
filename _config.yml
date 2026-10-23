@@ -13,8 +13,6 @@ baseurl: ""
 links:
   - name: Email
     url: "mailto:rrbaker@gmail.com"
-  - name: LinkedIn
-    url: "https://www.linkedin.com/in/rrbaker"
   - name: Instagram
     url: "https://www.instagram.com/rrbaker"
 
